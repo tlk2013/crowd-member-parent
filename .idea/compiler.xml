@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="crowd-member-authentication" />
+        <module name="crowd-member-entity" />
+        <module name="crowd-member-eureka" />
+        <module name="crowd-member-mysql" />
+        <module name="crowd-member-order" />
+        <module name="crowd-member-pay" />
+        <module name="crowd-member-redis" />
+        <module name="crowd-member-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="crowd-member-authentication" target="1.8" />
+      <module name="crowd-member-entity" target="1.8" />
+      <module name="crowd-member-eureka" target="1.8" />
+      <module name="crowd-member-mysql" target="1.8" />
+      <module name="crowd-member-order" target="1.8" />
+      <module name="crowd-member-parent" target="1.8" />
+      <module name="crowd-member-pay" target="1.8" />
+      <module name="crowd-member-redis" target="1.8" />
+      <module name="crowd-member-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
